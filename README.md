@@ -32,7 +32,7 @@ _Em desenvolvimento..._
 
 ## 📁 Estrutura do Projeto
 
-```
+```text
 to-do-list-project/
 ├── backend/     # API REST
 ├── frontend/    # Interface do usuário
@@ -45,4 +45,4 @@ Icaro Furlaneto
 
 ---
 
-_Projeto em desenvolvimento_
+Projeto em desenvolvimento
