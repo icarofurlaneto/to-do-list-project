@@ -5,18 +5,21 @@ Aplicação de lista de tarefas profissional desenvolvida como projeto de aprend
 ## 🚀 Tecnologias
 
 ### Backend
+
 - **Node.js** com Express
 - **TypeScript** para type safety
 - **Prisma** ORM para gerenciamento do banco de dados
 - **PostgreSQL** como banco de dados
 
 ### Frontend
+
 - **React** com TypeScript
 - **Vite** como bundler
 - **Tailwind CSS** para estilização
 - **Axios** para requisições HTTP
 
 ### Ferramentas de Desenvolvimento
+
 - **ESLint** para análise de código
 - **Prettier** para formatação
 
@@ -175,9 +178,9 @@ Este projeto foi desenvolvido com foco em:
 - [ ] Implementar testes unitários e de integração
 - [ ] Deploy da aplicação
 
-## �👨‍💻 Autor
+## ‍💻 Autor
 
-**Icaro Furlaneto**
+Icaro Furlaneto
 
 ---
 
