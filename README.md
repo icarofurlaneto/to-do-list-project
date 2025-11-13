@@ -171,7 +171,7 @@ Este projeto foi desenvolvido com foco em:
 - **React Hooks** - Componentes funcionais e gerenciamento de estado
 - **Boas práticas** - Clean Code, separação de concerns, etc.
 
-## 🚧 Próximos Passos
+## 🚧 Possíveis implementações futuras
 
 - [ ] Implementar autenticação de usuários
 - [ ] Adicionar filtros e ordenação de tarefas
@@ -182,6 +182,3 @@ Este projeto foi desenvolvido com foco em:
 
 Icaro Furlaneto
 
----
-
-📚 Projeto desenvolvido como parte do aprendizado de desenvolvimento full-stack
