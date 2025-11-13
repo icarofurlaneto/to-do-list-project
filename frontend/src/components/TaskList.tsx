@@ -45,18 +45,35 @@ export const TaskList = () => {
     }
   };
 
+  const handleUpdate = async (
+    id: number,
+    data: { title: string; description?: string }
+  ) => {
+    try {
+      await updateTask(id, data);
+      setTasks(
+        tasks.map((t) =>
+          t.id === id ? { ...t, title: data.title, description: data.description } : t
+        )
+      );
+    } catch (error) {
+      console.error("Erro ao atualizar tarefa:", error);
+    }
+  };
+
   if (isLoading) {
     return <div className="text-center">Carregando...</div>;
   }
 
   return (
     <div>
-      {tasks.map(task => (
+      {tasks.map((task) => (
         <TaskItem
           key={task.id}
           task={task}
           onDelete={handleDelete}
           onToggle={handleToggle}
+          onUpdate={handleUpdate}
         />
       ))}
     </div>
